@@ -1,0 +1,16 @@
+D:\OneDrive\RadioSampler\obj\Debug\netcoreapp3.1\RadioSampler.csproj.AssemblyReference.cache
+D:\OneDrive\RadioSampler\obj\Debug\netcoreapp3.1\RadioSampler.Sampler.resources
+D:\OneDrive\RadioSampler\obj\Debug\netcoreapp3.1\RadioSampler.csproj.GenerateResource.cache
+D:\OneDrive\RadioSampler\obj\Debug\netcoreapp3.1\RadioSampler.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\RadioSampler\obj\Debug\netcoreapp3.1\RadioSampler.AssemblyInfoInputs.cache
+D:\OneDrive\RadioSampler\obj\Debug\netcoreapp3.1\RadioSampler.AssemblyInfo.cs
+D:\OneDrive\RadioSampler\obj\Debug\netcoreapp3.1\RadioSampler.csproj.CoreCompileInputs.cache
+D:\OneDrive\RadioSampler\bin\Debug\netcoreapp3.1\RadioSampler.exe
+D:\OneDrive\RadioSampler\bin\Debug\netcoreapp3.1\RadioSampler.deps.json
+D:\OneDrive\RadioSampler\bin\Debug\netcoreapp3.1\RadioSampler.runtimeconfig.json
+D:\OneDrive\RadioSampler\bin\Debug\netcoreapp3.1\RadioSampler.runtimeconfig.dev.json
+D:\OneDrive\RadioSampler\bin\Debug\netcoreapp3.1\RadioSampler.dll
+D:\OneDrive\RadioSampler\bin\Debug\netcoreapp3.1\RadioSampler.pdb
+D:\OneDrive\RadioSampler\obj\Debug\netcoreapp3.1\RadioSampler.dll
+D:\OneDrive\RadioSampler\obj\Debug\netcoreapp3.1\RadioSampler.pdb
+D:\OneDrive\RadioSampler\obj\Debug\netcoreapp3.1\RadioSampler.genruntimeconfig.cache

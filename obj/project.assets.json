@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\winty\\source\\repos\\RadioSampler\\RadioSampler.csproj",
+      "projectUniqueName": "D:\\OneDrive\\RadioSampler\\RadioSampler.csproj",
       "projectName": "RadioSampler",
-      "projectPath": "C:\\Users\\winty\\source\\repos\\RadioSampler\\RadioSampler.csproj",
+      "projectPath": "D:\\OneDrive\\RadioSampler\\RadioSampler.csproj",
       "packagesPath": "C:\\Users\\winty\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\winty\\source\\repos\\RadioSampler\\obj\\",
+      "outputPath": "D:\\OneDrive\\RadioSampler\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -73,7 +73,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.206\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
