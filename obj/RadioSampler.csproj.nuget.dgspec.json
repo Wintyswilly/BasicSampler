@@ -1,28 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive\\RadioSampler\\RadioSampler.csproj": {}
+    "C:\\Users\\winty\\OneDrive\\RadioSampler\\RadioSampler.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive\\RadioSampler\\RadioSampler.csproj": {
+    "C:\\Users\\winty\\OneDrive\\RadioSampler\\RadioSampler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\RadioSampler\\RadioSampler.csproj",
+        "projectUniqueName": "C:\\Users\\winty\\OneDrive\\RadioSampler\\RadioSampler.csproj",
         "projectName": "RadioSampler",
-        "projectPath": "D:\\OneDrive\\RadioSampler\\RadioSampler.csproj",
+        "projectPath": "C:\\Users\\winty\\OneDrive\\RadioSampler\\RadioSampler.csproj",
         "packagesPath": "C:\\Users\\winty\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\RadioSampler\\obj\\",
+        "outputPath": "C:\\Users\\winty\\OneDrive\\RadioSampler\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\winty\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

@@ -19,7 +19,8 @@ namespace RadioSampler
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SoundPlayer splayer = new SoundPlayer(@"D:\OneDrive\RadioSampler\RadioSampler\Jingle1.wav");
+
+            SoundPlayer splayer = new SoundPlayer(@"C:\Temp\Jingle1.wav");
             splayer.Play();
         }
     }
