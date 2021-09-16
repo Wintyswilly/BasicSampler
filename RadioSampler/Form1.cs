@@ -53,5 +53,10 @@ namespace RadioSampler
             SoundPlayer splayer = new SoundPlayer(@"C:\Temp\Jingle6.wav");
             splayer.Play();
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
