@@ -19,9 +19,11 @@ namespace RadioSampler
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SoundPlayer splayer = new SoundPlayer(@"C:\Temp\Jingle1.wav");
-            splayer.Play();
 
+       //     string sample = listBox1.ToString();
+            SoundPlayer splayer = new SoundPlayer(@"C:\Temp\Jingle2.wav");
+                splayer.Play();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -55,6 +57,36 @@ namespace RadioSampler
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox6_TextChanged(object sender, EventArgs e)
         {
 
         }
