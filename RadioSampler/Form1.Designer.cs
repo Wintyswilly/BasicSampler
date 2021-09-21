@@ -163,6 +163,10 @@ namespace RadioSampler
             this.richTextBox6.Text = "";
             this.richTextBox6.TextChanged += new System.EventHandler(this.richTextBox6_TextChanged);
             // 
+            // Drag and drop Richtextbox1
+            // 
+            this.richTextBox1.DragEnter += new System.Windows.Forms.DragEventHandler(this.richTextBox1_DragEnter);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);

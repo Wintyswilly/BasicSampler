@@ -90,5 +90,12 @@ namespace RadioSampler
         {
 
         }
+        private void richTextBox1_DragEnter(object sender,System.Windows.Forms.DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Text))
+                e.Effect = DragDropEffects.Copy;
+            else
+                e.Effect = DragDropEffects.None;
+        }
     }
 }
