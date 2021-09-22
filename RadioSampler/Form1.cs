@@ -17,12 +17,12 @@ namespace RadioSampler
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
-
-       //     string sample = listBox1.ToString();
-            SoundPlayer splayer = new SoundPlayer(@"C:\Temp\Jingle2.wav");
-                splayer.Play();
+            //listBox1.ToString()
+            SoundPlayer splayer = new SoundPlayer( );
+            splayer.SoundLocation = listBox1.ToString();   
+            splayer.Play();
             
         }
 
@@ -56,46 +56,29 @@ namespace RadioSampler
             splayer.Play();
         }
 
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
+
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
+ 
 
         }
-
-        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        private void listBox1_DragEnter(object sender, System.Windows.Forms.DragEventArgs e)
         {
-
-        }
-
-        private void richTextBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox6_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void richTextBox1_DragEnter(object sender,System.Windows.Forms.DragEventArgs e)
-        {
-            if (e.Data.GetDataPresent(DataFormats.Text))
-                e.Effect = DragDropEffects.Copy;
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+                e.Effect = DragDropEffects.All;
             else
                 e.Effect = DragDropEffects.None;
+        }
+        public void listBox1_DragDrop(object sender, System.Windows.Forms.DragEventArgs e)
+        {
+            string[] s = (string[])e.Data.GetData(DataFormats.FileDrop, false);
+            int i;
+            for (i = 0; i < s.Length; i++)
+                listBox1.Items.Add(s[i]);
         }
     }
 }
