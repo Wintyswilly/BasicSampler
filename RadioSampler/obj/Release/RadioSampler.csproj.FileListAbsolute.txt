@@ -8,3 +8,13 @@ C:\Users\winty\OneDrive\RadioSampler2\RadioSampler\RadioSampler\obj\Release\Radi
 C:\Users\winty\OneDrive\RadioSampler2\RadioSampler\RadioSampler\obj\Release\RadioSampler.csproj.CoreCompileInputs.cache
 C:\Users\winty\OneDrive\RadioSampler2\RadioSampler\RadioSampler\obj\Release\RadioSampler.exe
 C:\Users\winty\OneDrive\RadioSampler2\RadioSampler\RadioSampler\obj\Release\RadioSampler.pdb
+C:\Users\winty\OneDrive\RadioSampler\RadioSampler\bin\Release\RadioSampler.exe.config
+C:\Users\winty\OneDrive\RadioSampler\RadioSampler\bin\Release\RadioSampler.exe
+C:\Users\winty\OneDrive\RadioSampler\RadioSampler\bin\Release\RadioSampler.pdb
+C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Release\RadioSampler.csproj.AssemblyReference.cache
+C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Release\RadioSampler.Form1.resources
+C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Release\RadioSampler.Properties.Resources.resources
+C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Release\RadioSampler.csproj.GenerateResource.cache
+C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Release\RadioSampler.csproj.CoreCompileInputs.cache
+C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Release\RadioSampler.exe
+C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Release\RadioSampler.pdb

@@ -1,7 +1,7 @@
 ﻿
 namespace RadioSampler
 {
-    partial class Form1
+    partial class IncapableSampler
     {
         /// <summary>
         /// Required designer variable.
@@ -36,6 +36,11 @@ namespace RadioSampler
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.listBox4 = new System.Windows.Forms.ListBox();
+            this.listBox5 = new System.Windows.Forms.ListBox();
+            this.listBox6 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // button1
@@ -111,18 +116,87 @@ namespace RadioSampler
             this.listBox1.ItemHeight = 20;
             this.listBox1.Location = new System.Drawing.Point(57, 254);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(318, 64);
+            this.listBox1.Size = new System.Drawing.Size(318, 44);
             this.listBox1.TabIndex = 6;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             this.listBox1.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox1_DragDrop);
             this.listBox1.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox1_DragEnter);
-
             // 
-            // Form1
+            // listBox2
+            // 
+            this.listBox2.AllowDrop = true;
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 20;
+            this.listBox2.Location = new System.Drawing.Point(452, 254);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(280, 44);
+            this.listBox2.TabIndex = 7;
+            this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
+            this.listBox2.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox2_DragDrop);
+            this.listBox2.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox2_DragEnter);
+            // 
+            // listBox3
+            // 
+            this.listBox3.AllowDrop = true;
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.ItemHeight = 20;
+            this.listBox3.Location = new System.Drawing.Point(826, 254);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(256, 44);
+            this.listBox3.TabIndex = 8;
+            this.listBox3.SelectedIndexChanged += new System.EventHandler(this.listBox3_SelectedIndexChanged);
+            this.listBox3.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox3_DragDrop);
+            this.listBox3.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox3_DragEnter);
+            // 
+            // listBox4
+            // 
+            this.listBox4.AllowDrop = true;
+            this.listBox4.FormattingEnabled = true;
+            this.listBox4.ItemHeight = 20;
+            this.listBox4.Location = new System.Drawing.Point(57, 568);
+            this.listBox4.Name = "listBox4";
+            this.listBox4.Size = new System.Drawing.Size(318, 44);
+            this.listBox4.TabIndex = 9;
+            this.listBox4.SelectedIndexChanged += new System.EventHandler(this.listBox4_SelectedIndexChanged);
+            this.listBox4.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox4_DragDrop);
+            this.listBox4.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox4_DragEnter);
+            // 
+            // listBox5
+            // 
+            this.listBox5.AllowDrop = true;
+            this.listBox5.FormattingEnabled = true;
+            this.listBox5.ItemHeight = 20;
+            this.listBox5.Location = new System.Drawing.Point(452, 568);
+            this.listBox5.Name = "listBox5";
+            this.listBox5.Size = new System.Drawing.Size(280, 44);
+            this.listBox5.TabIndex = 10;
+            this.listBox5.SelectedIndexChanged += new System.EventHandler(this.listBox5_SelectedIndexChanged);
+            this.listBox5.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox5_DragDrop);
+            this.listBox5.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox5_DragEnter);
+            // 
+            // listBox6
+            // 
+            this.listBox6.AllowDrop = true;
+            this.listBox6.FormattingEnabled = true;
+            this.listBox6.ItemHeight = 20;
+            this.listBox6.Location = new System.Drawing.Point(826, 568);
+            this.listBox6.Name = "listBox6";
+            this.listBox6.Size = new System.Drawing.Size(256, 44);
+            this.listBox6.TabIndex = 11;
+            this.listBox6.SelectedIndexChanged += new System.EventHandler(this.listBox6_SelectedIndexChanged);
+            this.listBox6.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox6_DragDrop);
+            this.listBox6.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox6_DragEnter);
+            // 
+            // IncapableSampler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1113, 646);
+            this.Controls.Add(this.listBox6);
+            this.Controls.Add(this.listBox5);
+            this.Controls.Add(this.listBox4);
+            this.Controls.Add(this.listBox3);
+            this.Controls.Add(this.listBox2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -130,8 +204,8 @@ namespace RadioSampler
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "IncapableSampler";
+            this.Text = "IncapableSampler";
             this.ResumeLayout(false);
 
         }
@@ -145,6 +219,11 @@ namespace RadioSampler
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.ListBox listBox4;
+        private System.Windows.Forms.ListBox listBox5;
+        private System.Windows.Forms.ListBox listBox6;
     }
 }
 
