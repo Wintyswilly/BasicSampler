@@ -17,7 +17,7 @@ namespace RadioSampler
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new IncapableSampler());
         }
     private static void Button1_Click(object sender, EventArgs e) 
         {

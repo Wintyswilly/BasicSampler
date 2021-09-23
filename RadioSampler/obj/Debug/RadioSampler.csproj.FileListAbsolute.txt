@@ -12,9 +12,9 @@ C:\Users\winty\OneDrive\RadioSampler\RadioSampler\bin\Debug\RadioSampler.exe.con
 C:\Users\winty\OneDrive\RadioSampler\RadioSampler\bin\Debug\RadioSampler.exe
 C:\Users\winty\OneDrive\RadioSampler\RadioSampler\bin\Debug\RadioSampler.pdb
 C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Debug\RadioSampler.csproj.AssemblyReference.cache
-C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Debug\RadioSampler.Form1.resources
 C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Debug\RadioSampler.Properties.Resources.resources
 C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Debug\RadioSampler.csproj.GenerateResource.cache
 C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Debug\RadioSampler.csproj.CoreCompileInputs.cache
 C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Debug\RadioSampler.exe
 C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Debug\RadioSampler.pdb
+C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Debug\RadioSampler.IncapableSampler.resources
