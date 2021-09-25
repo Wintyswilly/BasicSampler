@@ -22,45 +22,83 @@ namespace RadioSampler
 
         public void button1_Click(object sender, EventArgs e)
         {
-            object fileLocationobj = listBox1.Items[0];
-            string fileLocation = fileLocationobj.ToString(); 
-            SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
+
+          //  object fileLocationobj = listBox1.Items[0];
+          //  string fileLocation = fileLocationobj.ToString(); 
+            if (listBox1.Items.Count is 0) 
+            { System.Windows.Forms.MessageBox.Show("No File Clown Shoes!"); }
+            else
+            {
+                object fileLocationobj = listBox1.Items[0];
+                string fileLocation = fileLocationobj.ToString();
+
+                SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
             splayer.Play();
-            
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            object fileLocationobj = listBox2.Items[0];
-            string fileLocation = fileLocationobj.ToString();
-            SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
-            splayer.Play();
+            if (listBox2.Items.Count is 0)
+            { System.Windows.Forms.MessageBox.Show("No File Clown Shoes!"); }
+            else
+            {
+                object fileLocationobj = listBox2.Items[0];
+                string fileLocation = fileLocationobj.ToString();
+                SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
+                splayer.Play();
+            }
         }
-
         private void button3_Click(object sender, EventArgs e)
         {
-            object fileLocationobj = listBox3.Items[0];
-            string fileLocation = fileLocationobj.ToString();
-            SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
-            splayer.Play();
+            if (listBox3.Items.Count is 0)
+            { System.Windows.Forms.MessageBox.Show("No File Clown Shoes!"); }
+            else
+            {
+                object fileLocationobj = listBox3.Items[0];
+                string fileLocation = fileLocationobj.ToString();
+                SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
+                splayer.Play();
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            SoundPlayer splayer = new SoundPlayer(@"C:\Temp\Jingle4.wav");
-            splayer.Play();
+            if (listBox4.Items.Count is 0)
+            { System.Windows.Forms.MessageBox.Show("No File Clown Shoes!"); }
+            else
+            {
+                object fileLocationobj = listBox4.Items[0];
+                string fileLocation = fileLocationobj.ToString();
+                SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
+                splayer.Play();
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            SoundPlayer splayer = new SoundPlayer(@"C:\Temp\Jingle5.wav");
-            splayer.Play();
+            if (listBox5.Items.Count is 0)
+            { System.Windows.Forms.MessageBox.Show("No File Clown Shoes!"); }
+            else
+            {
+                object fileLocationobj = listBox5.Items[0];
+                string fileLocation = fileLocationobj.ToString();
+                SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
+                splayer.Play();
+            }
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            SoundPlayer splayer = new SoundPlayer(@"C:\Temp\Jingle6.wav");
-            splayer.Play();
+            if (listBox6.Items.Count is 0)
+            { System.Windows.Forms.MessageBox.Show("No File Clown Shoes!"); }
+            else
+            {
+                object fileLocationobj = listBox6.Items[0];
+                string fileLocation = fileLocationobj.ToString();
+                SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
+                splayer.Play();
+            }
         }
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
