@@ -215,5 +215,34 @@ namespace RadioSampler
                 listBox6.Items.Add(s[i]);
         }
 
+        private void button7_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            listBox2.Items.Clear();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            listBox3.Items.Clear();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            listBox4.Items.Clear();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            listBox5.Items.Clear();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            listBox6.Items.Clear();
+        }
     }
 }

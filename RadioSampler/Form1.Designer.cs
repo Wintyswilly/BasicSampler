@@ -41,6 +41,12 @@ namespace RadioSampler
             this.listBox4 = new System.Windows.Forms.ListBox();
             this.listBox5 = new System.Windows.Forms.ListBox();
             this.listBox6 = new System.Windows.Forms.ListBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -187,11 +193,77 @@ namespace RadioSampler
             this.listBox6.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox6_DragDrop);
             this.listBox6.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox6_DragEnter);
             // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(57, 305);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(187, 41);
+            this.button7.TabIndex = 12;
+            this.button7.Text = "ClearList1";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(452, 309);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(174, 37);
+            this.button8.TabIndex = 13;
+            this.button8.Text = "ClearList2";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(826, 305);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(176, 41);
+            this.button9.TabIndex = 14;
+            this.button9.Text = "ClearList3";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(57, 619);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(187, 41);
+            this.button10.TabIndex = 15;
+            this.button10.Text = "ClearList4";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(452, 619);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(174, 41);
+            this.button11.TabIndex = 16;
+            this.button11.Text = "ClearList5";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(826, 619);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(176, 41);
+            this.button12.TabIndex = 17;
+            this.button12.Text = "ClearList6";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
             // IncapableSampler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1113, 646);
+            this.ClientSize = new System.Drawing.Size(1104, 685);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.listBox6);
             this.Controls.Add(this.listBox5);
             this.Controls.Add(this.listBox4);
@@ -224,6 +296,12 @@ namespace RadioSampler
         private System.Windows.Forms.ListBox listBox4;
         private System.Windows.Forms.ListBox listBox5;
         private System.Windows.Forms.ListBox listBox6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
     }
 }
 
