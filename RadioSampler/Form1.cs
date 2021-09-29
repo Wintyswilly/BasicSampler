@@ -23,17 +23,44 @@ namespace RadioSampler
         public void button1_Click(object sender, EventArgs e)
         {
 
-          //  object fileLocationobj = listBox1.Items[0];
-          //  string fileLocation = fileLocationobj.ToString(); 
+
             if (listBox1.Items.Count is 0) 
             { System.Windows.Forms.MessageBox.Show("No File Clown Shoes!"); }
             else
             {
-                object fileLocationobj = listBox1.Items[0];
-                string fileLocation = fileLocationobj.ToString();
+                if (listBox1.SelectedItems.Count is 0)
+                { System.Windows.Forms.MessageBox.Show("Stop being mean to me! select a file"); }
+                else
+                {
+                if(listBox1.SelectedItem.ToString().EndsWith(".mp3"))
+                    {
+                        string curItem = listBox1.SelectedItem.ToString();
+                        int index = listBox1.FindString(curItem);
+                        listBox1.SetSelected(index, true);
+                        object fileLocationobj = curItem;
+                        string fileLocation = fileLocationobj.ToString();
+                        // play mp3
+                        WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
+                        
+                        wplayer.URL = fileLocation;
+            
+                        wplayer.controls.play();
+                    }
+                    else {
 
-                SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
-            splayer.Play();
+
+                        WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
+                        wplayer.controls.stop();
+                        string curItem = listBox1.SelectedItem.ToString();
+                        int index = listBox1.FindString(curItem);
+                        listBox1.SetSelected(index, true);
+                        object fileLocationobj = curItem;
+                        string fileLocation = fileLocationobj.ToString();
+                       // play wav
+                        SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
+                        splayer.Play();
+                    }
+                }
             }
         }
 
@@ -43,22 +70,85 @@ namespace RadioSampler
             { System.Windows.Forms.MessageBox.Show("No File Clown Shoes!"); }
             else
             {
-                object fileLocationobj = listBox2.Items[0];
-                string fileLocation = fileLocationobj.ToString();
-                SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
-                splayer.Play();
-            }
+                if (listBox2.SelectedItems.Count is 0)
+                { System.Windows.Forms.MessageBox.Show("Stop being mean to me! select a file"); }
+                else
+                {
+
+                    if (listBox2.SelectedItem.ToString().EndsWith(".mp3"))
+                    {
+                        string curItem = listBox2.SelectedItem.ToString();
+                        int index = listBox2.FindString(curItem);
+                        listBox2.SetSelected(index, true);
+                        object fileLocationobj = curItem;
+                        string fileLocation = fileLocationobj.ToString();
+                        // play mp3
+                        WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
+
+                        wplayer.URL = fileLocation;
+
+                        wplayer.controls.play();
+                    }
+                    else
+                    {
+
+
+                        WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
+                        wplayer.controls.stop();
+                        string curItem = listBox2.SelectedItem.ToString();
+                        int index = listBox2.FindString(curItem);
+                        listBox2.SetSelected(index, true);
+                        object fileLocationobj = curItem;
+                        string fileLocation = fileLocationobj.ToString();
+                        // play wav
+                        SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
+                        splayer.Play();
+                    }
+                }
+
         }
+    }
         private void button3_Click(object sender, EventArgs e)
         {
             if (listBox3.Items.Count is 0)
             { System.Windows.Forms.MessageBox.Show("No File Clown Shoes!"); }
             else
             {
-                object fileLocationobj = listBox3.Items[0];
-                string fileLocation = fileLocationobj.ToString();
-                SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
-                splayer.Play();
+                if (listBox3.SelectedItems.Count is 0)
+                { System.Windows.Forms.MessageBox.Show("Stop being mean to me! select a file"); }
+                else
+                {
+
+                    if (listBox3.SelectedItem.ToString().EndsWith(".mp3"))
+                    {
+                        string curItem = listBox3.SelectedItem.ToString();
+                        int index = listBox3.FindString(curItem);
+                        listBox1.SetSelected(index, true);
+                        object fileLocationobj = curItem;
+                        string fileLocation = fileLocationobj.ToString();
+                        // play mp3
+                        WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
+
+                        wplayer.URL = fileLocation;
+
+                        wplayer.controls.play();
+                    }
+                    else
+                    {
+
+
+                        WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
+                        wplayer.controls.stop();
+                        string curItem = listBox3.SelectedItem.ToString();
+                        int index = listBox3.FindString(curItem);
+                        listBox3.SetSelected(index, true);
+                        object fileLocationobj = curItem;
+                        string fileLocation = fileLocationobj.ToString();
+                        // play wav
+                        SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
+                        splayer.Play();
+                    }
+                }
             }
         }
 
@@ -68,10 +158,42 @@ namespace RadioSampler
             { System.Windows.Forms.MessageBox.Show("No File Clown Shoes!"); }
             else
             {
-                object fileLocationobj = listBox4.Items[0];
-                string fileLocation = fileLocationobj.ToString();
-                SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
-                splayer.Play();
+                if (listBox4.SelectedItems.Count is 0)
+                { System.Windows.Forms.MessageBox.Show("Stop being mean to me! select a file"); }
+                else
+                {
+
+                    if (listBox4.SelectedItem.ToString().EndsWith(".mp3"))
+                    {
+                        string curItem = listBox4.SelectedItem.ToString();
+                        int index = listBox4.FindString(curItem);
+                        listBox4.SetSelected(index, true);
+                        object fileLocationobj = curItem;
+                        string fileLocation = fileLocationobj.ToString();
+                        // play mp3
+                        WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
+
+                        wplayer.URL = fileLocation;
+
+                        wplayer.controls.play();
+                    }
+                    else
+                    {
+
+
+                        WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
+                        wplayer.controls.stop();
+                        string curItem = listBox4.SelectedItem.ToString();
+                        int index = listBox4.FindString(curItem);
+                        listBox4.SetSelected(index, true);
+                        object fileLocationobj = curItem;
+                        string fileLocation = fileLocationobj.ToString();
+                        // play wav
+                        SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
+                        splayer.Play();
+                    }
+                }
+
             }
         }
 
@@ -81,10 +203,42 @@ namespace RadioSampler
             { System.Windows.Forms.MessageBox.Show("No File Clown Shoes!"); }
             else
             {
-                object fileLocationobj = listBox5.Items[0];
-                string fileLocation = fileLocationobj.ToString();
-                SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
-                splayer.Play();
+                if (listBox5.SelectedItems.Count is 0)
+                { System.Windows.Forms.MessageBox.Show("Stop being mean to me! select a file"); }
+                else
+                {
+
+                    if (listBox5.SelectedItem.ToString().EndsWith(".mp3"))
+                    {
+                        string curItem = listBox5.SelectedItem.ToString();
+                        int index = listBox5.FindString(curItem);
+                        listBox5.SetSelected(index, true);
+                        object fileLocationobj = curItem;
+                        string fileLocation = fileLocationobj.ToString();
+                        // play mp3
+                        WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
+
+                        wplayer.URL = fileLocation;
+
+                        wplayer.controls.play();
+                    }
+                    else
+                    {
+
+
+                        WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
+                        wplayer.controls.stop();
+                        string curItem = listBox5.SelectedItem.ToString();
+                        int index = listBox5.FindString(curItem);
+                        listBox5.SetSelected(index, true);
+                        object fileLocationobj = curItem;
+                        string fileLocation = fileLocationobj.ToString();
+                        // play wav
+                        SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
+                        splayer.Play();
+                    }
+                }
+
             }
         }
 
@@ -94,10 +248,39 @@ namespace RadioSampler
             { System.Windows.Forms.MessageBox.Show("No File Clown Shoes!"); }
             else
             {
-                object fileLocationobj = listBox6.Items[0];
-                string fileLocation = fileLocationobj.ToString();
-                SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
-                splayer.Play();
+                if (listBox6.SelectedItems.Count is 0)
+                { System.Windows.Forms.MessageBox.Show("Stop being mean to me! select a file"); }
+                else
+                {
+                    if (listBox6.SelectedItem.ToString().EndsWith(".mp3"))
+                    {
+                        string curItem = listBox6.SelectedItem.ToString();
+                        int index = listBox6.FindString(curItem);
+                        listBox6.SetSelected(index, true);
+                        object fileLocationobj = curItem;
+                        string fileLocation = fileLocationobj.ToString();
+                        // play mp3
+                        WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
+
+                        wplayer.URL = fileLocation;
+
+                        wplayer.controls.play();
+                    }
+                    else
+                    {
+
+                        
+                        string curItem = listBox6.SelectedItem.ToString();
+                        int index = listBox6.FindString(curItem);
+                        listBox6.SetSelected(index, true);
+                        object fileLocationobj = curItem;
+                        string fileLocation = fileLocationobj.ToString();
+                        // play wav
+                        SoundPlayer splayer = new SoundPlayer(soundLocation: fileLocation);
+                        splayer.Play();
+                    }
+                }
+
             }
         }
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -116,8 +299,12 @@ namespace RadioSampler
         {
             string[] s = (string[])e.Data.GetData(DataFormats.FileDrop, false);
             int i;
-            for (i = 0; i < s.Length; i++)
+            for (i = 0; i < s.Length;  i++)
                 listBox1.Items.Add(s[i]);
+    
+
+
+
         }
 
         private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
