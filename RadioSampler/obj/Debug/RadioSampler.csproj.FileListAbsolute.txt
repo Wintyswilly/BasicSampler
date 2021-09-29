@@ -18,3 +18,5 @@ C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Debug\RadioSampler.csproj.
 C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Debug\RadioSampler.exe
 C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Debug\RadioSampler.pdb
 C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Debug\RadioSampler.IncapableSampler.resources
+C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Debug\Interop.WMPLib.dll
+C:\Users\winty\OneDrive\RadioSampler\RadioSampler\obj\Debug\RadioSampler.csproj.ResolveComReference.cache
