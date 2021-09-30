@@ -59,7 +59,7 @@ namespace RadioSampler
             this.button1.TabIndex = 0;
             this.button1.Text = "Sample1";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button2
             // 
@@ -70,7 +70,7 @@ namespace RadioSampler
             this.button2.TabIndex = 1;
             this.button2.Text = "Sample2";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button3
             // 
@@ -81,7 +81,7 @@ namespace RadioSampler
             this.button3.TabIndex = 2;
             this.button3.Text = "Sample3";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // button4
             // 
@@ -92,7 +92,7 @@ namespace RadioSampler
             this.button4.TabIndex = 3;
             this.button4.Text = "Sample4";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Click += new System.EventHandler(this.Button4_Click);
             // 
             // button5
             // 
@@ -103,7 +103,7 @@ namespace RadioSampler
             this.button5.TabIndex = 4;
             this.button5.Text = "Sample5";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.Click += new System.EventHandler(this.Button5_Click);
             // 
             // button6
             // 
@@ -114,7 +114,7 @@ namespace RadioSampler
             this.button6.TabIndex = 5;
             this.button6.Text = "Sample6";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button6.Click += new System.EventHandler(this.Button6_Click);
             // 
             // listBox1
             // 
@@ -125,9 +125,9 @@ namespace RadioSampler
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(318, 44);
             this.listBox1.TabIndex = 6;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
-            this.listBox1.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox1_DragDrop);
-            this.listBox1.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox1_DragEnter);
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.ListBox1_SelectedIndexChanged);
+            this.listBox1.DragDrop += new System.Windows.Forms.DragEventHandler(this.ListBox1_DragDrop);
+            this.listBox1.DragEnter += new System.Windows.Forms.DragEventHandler(this.ListBox1_DragEnter);
             // 
             // listBox2
             // 
@@ -138,9 +138,9 @@ namespace RadioSampler
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(280, 44);
             this.listBox2.TabIndex = 7;
-            this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
-            this.listBox2.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox2_DragDrop);
-            this.listBox2.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox2_DragEnter);
+            this.listBox2.SelectedIndexChanged += new System.EventHandler(this.ListBox2_SelectedIndexChanged);
+            this.listBox2.DragDrop += new System.Windows.Forms.DragEventHandler(this.ListBox2_DragDrop);
+            this.listBox2.DragEnter += new System.Windows.Forms.DragEventHandler(this.ListBox2_DragEnter);
             // 
             // listBox3
             // 
@@ -151,9 +151,9 @@ namespace RadioSampler
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(256, 44);
             this.listBox3.TabIndex = 8;
-            this.listBox3.SelectedIndexChanged += new System.EventHandler(this.listBox3_SelectedIndexChanged);
-            this.listBox3.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox3_DragDrop);
-            this.listBox3.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox3_DragEnter);
+            this.listBox3.SelectedIndexChanged += new System.EventHandler(this.ListBox3_SelectedIndexChanged);
+            this.listBox3.DragDrop += new System.Windows.Forms.DragEventHandler(this.ListBox3_DragDrop);
+            this.listBox3.DragEnter += new System.Windows.Forms.DragEventHandler(this.ListBox3_DragEnter);
             // 
             // listBox4
             // 
@@ -164,9 +164,9 @@ namespace RadioSampler
             this.listBox4.Name = "listBox4";
             this.listBox4.Size = new System.Drawing.Size(318, 44);
             this.listBox4.TabIndex = 9;
-            this.listBox4.SelectedIndexChanged += new System.EventHandler(this.listBox4_SelectedIndexChanged);
-            this.listBox4.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox4_DragDrop);
-            this.listBox4.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox4_DragEnter);
+            this.listBox4.SelectedIndexChanged += new System.EventHandler(this.ListBox4_SelectedIndexChanged);
+            this.listBox4.DragDrop += new System.Windows.Forms.DragEventHandler(this.ListBox4_DragDrop);
+            this.listBox4.DragEnter += new System.Windows.Forms.DragEventHandler(this.ListBox4_DragEnter);
             // 
             // listBox5
             // 
@@ -177,9 +177,9 @@ namespace RadioSampler
             this.listBox5.Name = "listBox5";
             this.listBox5.Size = new System.Drawing.Size(280, 44);
             this.listBox5.TabIndex = 10;
-            this.listBox5.SelectedIndexChanged += new System.EventHandler(this.listBox5_SelectedIndexChanged);
-            this.listBox5.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox5_DragDrop);
-            this.listBox5.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox5_DragEnter);
+            this.listBox5.SelectedIndexChanged += new System.EventHandler(this.ListBox5_SelectedIndexChanged);
+            this.listBox5.DragDrop += new System.Windows.Forms.DragEventHandler(this.ListBox5_DragDrop);
+            this.listBox5.DragEnter += new System.Windows.Forms.DragEventHandler(this.ListBox5_DragEnter);
             // 
             // listBox6
             // 
@@ -190,9 +190,9 @@ namespace RadioSampler
             this.listBox6.Name = "listBox6";
             this.listBox6.Size = new System.Drawing.Size(256, 44);
             this.listBox6.TabIndex = 11;
-            this.listBox6.SelectedIndexChanged += new System.EventHandler(this.listBox6_SelectedIndexChanged);
-            this.listBox6.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox6_DragDrop);
-            this.listBox6.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox6_DragEnter);
+            this.listBox6.SelectedIndexChanged += new System.EventHandler(this.ListBox6_SelectedIndexChanged);
+            this.listBox6.DragDrop += new System.Windows.Forms.DragEventHandler(this.ListBox6_DragDrop);
+            this.listBox6.DragEnter += new System.Windows.Forms.DragEventHandler(this.ListBox6_DragEnter);
             // 
             // button7
             // 
@@ -202,7 +202,7 @@ namespace RadioSampler
             this.button7.TabIndex = 12;
             this.button7.Text = "ClearList1";
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.button7.Click += new System.EventHandler(this.Button7_Click);
             // 
             // button8
             // 
@@ -212,7 +212,7 @@ namespace RadioSampler
             this.button8.TabIndex = 13;
             this.button8.Text = "ClearList2";
             this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.button8.Click += new System.EventHandler(this.Button8_Click);
             // 
             // button9
             // 
@@ -222,7 +222,7 @@ namespace RadioSampler
             this.button9.TabIndex = 14;
             this.button9.Text = "ClearList3";
             this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.button9.Click += new System.EventHandler(this.Button9_Click);
             // 
             // button10
             // 
@@ -232,7 +232,7 @@ namespace RadioSampler
             this.button10.TabIndex = 15;
             this.button10.Text = "ClearList4";
             this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.button10.Click += new System.EventHandler(this.Button10_Click);
             // 
             // button11
             // 
@@ -242,7 +242,7 @@ namespace RadioSampler
             this.button11.TabIndex = 16;
             this.button11.Text = "ClearList5";
             this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
+            this.button11.Click += new System.EventHandler(this.Button11_Click);
             // 
             // button12
             // 
@@ -252,7 +252,7 @@ namespace RadioSampler
             this.button12.TabIndex = 17;
             this.button12.Text = "ClearList6";
             this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
+            this.button12.Click += new System.EventHandler(this.Button12_Click);
             // 
             // IncapableSampler
             // 
