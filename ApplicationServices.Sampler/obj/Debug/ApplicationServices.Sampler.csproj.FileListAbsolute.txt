@@ -1,0 +1,8 @@
+P:\BasicSampler\ApplicationServices.Sampler\bin\Debug\ApplicationServices.Sampler.dll
+P:\BasicSampler\ApplicationServices.Sampler\bin\Debug\ApplicationServices.Sampler.pdb
+P:\BasicSampler\ApplicationServices.Sampler\bin\Debug\AxInterop.WMPLib.dll
+P:\BasicSampler\ApplicationServices.Sampler\obj\Debug\ApplicationServices.Sampler.csproj.AssemblyReference.cache
+P:\BasicSampler\ApplicationServices.Sampler\obj\Debug\ApplicationServices.Sampler.csproj.CoreCompileInputs.cache
+P:\BasicSampler\ApplicationServices.Sampler\obj\Debug\ApplicationServices.Sampler.csproj.CopyComplete
+P:\BasicSampler\ApplicationServices.Sampler\obj\Debug\ApplicationServices.Sampler.dll
+P:\BasicSampler\ApplicationServices.Sampler\obj\Debug\ApplicationServices.Sampler.pdb
