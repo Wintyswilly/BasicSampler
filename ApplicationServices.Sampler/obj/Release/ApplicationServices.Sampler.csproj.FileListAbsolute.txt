@@ -1,0 +1,8 @@
+C:\Users\winty\OneDrive\RadioSampler2\BasicSampler-update-daves-fuckabout-branch\BasicSampler-update-daves-fuckabout-branch\ApplicationServices.Sampler\bin\Release\ApplicationServices.Sampler.dll
+C:\Users\winty\OneDrive\RadioSampler2\BasicSampler-update-daves-fuckabout-branch\BasicSampler-update-daves-fuckabout-branch\ApplicationServices.Sampler\bin\Release\ApplicationServices.Sampler.pdb
+C:\Users\winty\OneDrive\RadioSampler2\BasicSampler-update-daves-fuckabout-branch\BasicSampler-update-daves-fuckabout-branch\ApplicationServices.Sampler\bin\Release\AxInterop.WMPLib.dll
+C:\Users\winty\OneDrive\RadioSampler2\BasicSampler-update-daves-fuckabout-branch\BasicSampler-update-daves-fuckabout-branch\ApplicationServices.Sampler\obj\Release\ApplicationServices.Sampler.csproj.AssemblyReference.cache
+C:\Users\winty\OneDrive\RadioSampler2\BasicSampler-update-daves-fuckabout-branch\BasicSampler-update-daves-fuckabout-branch\ApplicationServices.Sampler\obj\Release\ApplicationServices.Sampler.csproj.CoreCompileInputs.cache
+C:\Users\winty\OneDrive\RadioSampler2\BasicSampler-update-daves-fuckabout-branch\BasicSampler-update-daves-fuckabout-branch\ApplicationServices.Sampler\obj\Release\ApplicationServices.Sampler.csproj.CopyComplete
+C:\Users\winty\OneDrive\RadioSampler2\BasicSampler-update-daves-fuckabout-branch\BasicSampler-update-daves-fuckabout-branch\ApplicationServices.Sampler\obj\Release\ApplicationServices.Sampler.dll
+C:\Users\winty\OneDrive\RadioSampler2\BasicSampler-update-daves-fuckabout-branch\BasicSampler-update-daves-fuckabout-branch\ApplicationServices.Sampler\obj\Release\ApplicationServices.Sampler.pdb
