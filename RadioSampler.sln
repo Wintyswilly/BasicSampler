@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioSampler", "RadioSample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationServices.Sampler", "ApplicationServices.Sampler\ApplicationServices.Sampler.csproj", "{857B3B17-0DB3-4100-AFA2-6AD9AAB6BF19}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RadioSamplerSetup", "RadioSamplerSetup\RadioSamplerSetup.vdproj", "{9EC0D0FE-DD51-4A18-A612-37B827321DA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{857B3B17-0DB3-4100-AFA2-6AD9AAB6BF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{857B3B17-0DB3-4100-AFA2-6AD9AAB6BF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{857B3B17-0DB3-4100-AFA2-6AD9AAB6BF19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC0D0FE-DD51-4A18-A612-37B827321DA5}.Debug|Any CPU.ActiveCfg = Debug
+		{9EC0D0FE-DD51-4A18-A612-37B827321DA5}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
