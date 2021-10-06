@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+//using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Media;
+//using System.Media;
 
 namespace RadioSampler
 {
-    using ApplicationServices.Sampler;
+ //   using ApplicationServices.Sampler;
 
     static class Program
     {

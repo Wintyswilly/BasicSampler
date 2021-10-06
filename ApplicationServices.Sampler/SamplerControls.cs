@@ -1,6 +1,6 @@
 ﻿namespace ApplicationServices.Sampler
 {
-    using System.Diagnostics.Eventing.Reader;
+ //   using System.Diagnostics.Eventing.Reader;
     using System.Media;
     using WMPLib;
 

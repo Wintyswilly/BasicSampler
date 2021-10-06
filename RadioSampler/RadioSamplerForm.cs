@@ -44,14 +44,14 @@
                         object fileLocationobj = curItem;
                         string fileLocation = fileLocationobj.ToString();
 
-                        if (listBox.SelectedItem.ToString().EndsWith(".mp3"))
-                        {
+                  //      if (listBox.SelectedItem.ToString().EndsWith(".mp3"))
+                  //      {
                             player.PlayWindowsMedia(fileLocation);
-                        }
-                        else
-                        {
-                            player.PlaySoundPlayer(fileLocation);
-                        }
+                  //      }
+                  //      else
+                  //      {
+                   //         player.PlaySoundPlayer(fileLocation);
+                  //      }
                     }
                 }
             }
