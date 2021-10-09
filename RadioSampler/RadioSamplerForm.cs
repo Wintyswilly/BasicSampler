@@ -216,5 +216,40 @@
         {
             listBox6.Items.Clear();
         }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+
+        }
+
+        private void IncapableSampler_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trackBar3_Scroll(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trackBar4_Scroll(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trackBar2_Scroll(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trackBar5_Scroll(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trackBar6_Scroll(object sender, EventArgs e)
+        {
+
+        }
     }
 }
